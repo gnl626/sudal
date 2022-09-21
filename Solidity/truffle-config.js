@@ -44,7 +44,7 @@
 // require('dotenv').config();
 // const { MNEMONIC, PROJECT_ID } = process.env;
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
+const HDWalletProvider = require("truffle-hdwallet-provider");
 
 module.exports = {
   /**
@@ -62,6 +62,14 @@ module.exports = {
       host: "127.0.0.1", // ganache host
       port: 7545, // ganache port
       network_id: "1337", // ganache network id
+    },
+    ssafynw: {
+      provider: () =>
+        new HDWalletProvider(
+          "2c835aeb997e4d1269513a83efadc44de96a30a56c1b58cb7f8ce8897511c79f",
+          "http://20.196.209.2:8545"
+        ),
+      network_id: "202112031219",
     },
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.

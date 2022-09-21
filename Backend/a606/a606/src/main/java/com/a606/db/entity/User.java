@@ -36,6 +36,9 @@ public class User {
     //wallet
     @Column(nullable = false)
     private String wallet;
+    //nonce
+    @Column(nullable = false)
+    private String nonce;
     //nickname
     @Column(nullable = false)
     private String nickname;
@@ -45,6 +48,9 @@ public class User {
     //is_delete
     @Column(nullable = false, columnDefinition = "TINYINT(1) DEFAULT 0")
     private boolean isDelete;
+    //profile
+    @Column(nullable = false)
+    private Long profile;
 
     //OneToOne
 

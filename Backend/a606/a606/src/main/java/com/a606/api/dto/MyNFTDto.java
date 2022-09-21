@@ -7,10 +7,11 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class NFTDto {
+public class MyNFTDto {
     private long id;
     private String tokenId;
+    private String tokenURI;
     private boolean isSaled;
-    private String name;
     private int likeCount;
+    private String name;
 }

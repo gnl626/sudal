@@ -1,5 +1,6 @@
 package com.a606.api.service;
 
+import com.a606.api.dto.MyNFTDto;
 import com.a606.api.dto.UserDto;
 import com.a606.db.entity.NFT;
 import com.a606.db.entity.User;
@@ -12,21 +13,27 @@ import java.util.List;
 public interface UserService {
 
     @Transactional
-    User createUser(UserDto.LoginRequest loginRequest);
+    String getNonceByWallet(String userWallet);
 
     @Transactional
-    User getUserPageByWallet(String userWallet);
+    User createUser(String userWallet);
 
     @Transactional
-    List<NFT> getUserPageById(long userId);
+    User getUserByWallet(String userWallet);
 
     @Transactional
-    NFT getProfileById(long userId);
+    List<MyNFTDto> getUserPageById(long userId) throws Exception;
 
     @Transactional
-    NFT updateProfile(long userId, String nftTokenId);
+    Long getProfileById(long userId) throws Exception;
+
+    @Transactional
+    User updateProfile(long userId, long nftTokenId) throws Exception;
 
     @Transactional
     String updateNickname(long userId, String nickname);
+
+    @Transactional
+    void setNonce(long userId);
 
 }

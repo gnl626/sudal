@@ -53,6 +53,7 @@ public class UserDto implements Serializable {
     public static class LoginRequest {
         @ApiModelProperty(name = "지갑 주소")
         private String wallet;
+        private String message;
     }
 
     @Getter
@@ -61,10 +62,6 @@ public class UserDto implements Serializable {
     @AllArgsConstructor
     @NoArgsConstructor
     public static class updateProfileRequest {
-        @NotNull
-        @ApiModelProperty(name="유저 id(식별자)", example = "1")
-        private long userId;
-
         @NotNull
         @ApiModelProperty(name="nft id", example = "1")
         private long nftId;
@@ -76,10 +73,6 @@ public class UserDto implements Serializable {
     @AllArgsConstructor
     @NoArgsConstructor
     public static class updateNicknameRequest {
-        @NotNull
-        @ApiModelProperty(name="유저 id(식별자)", example = "1")
-        private long userId;
-
         @NotNull
         @ApiModelProperty(name="새 닉네임", example = "수달이가죽었다고")
         private String nickname;
