@@ -3438,3 +3438,272 @@ java.lang.NullPointerException: null
 2022-09-26 13:36:45.412 DEBUG 5964 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
 2022-09-26 13:36:45.413 DEBUG 5964 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Sep 26 13:36:45 KST 2022, status=500, error=Internal Server Error, trace=java.lang.Nu (truncated)...]
 2022-09-26 13:36:45.415 DEBUG 5964 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2022-09-26 13:40:51.713  INFO 12780 --- [restartedMain] com.a606.A606Application                 : Starting A606Application using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12780 (C:\SSAFY\workspace\S07P22A606\Backend\a606\a606\build\classes\java\main started by SSAFY in C:\SSAFY\workspace\S07P22A606\Backend\a606\a606)
+2022-09-26 13:40:51.716  INFO 12780 --- [restartedMain] com.a606.A606Application                 : No active profile set, falling back to default profiles: default
+2022-09-26 13:40:51.757  INFO 12780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-26 13:40:51.757  INFO 12780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-26 13:40:52.106  WARN 12780 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-09-26 13:40:52.966  INFO 12780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-26 13:40:53.062  INFO 12780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 7 JPA repository interfaces.
+2022-09-26 13:40:53.587  INFO 12780 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1341b9dc' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-26 13:40:53.592  INFO 12780 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-26 13:40:54.357  INFO 12780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-26 13:40:54.369  INFO 12780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-26 13:40:54.370  INFO 12780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-26 13:40:54.481  INFO 12780 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-26 13:40:54.481  INFO 12780 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2723 ms
+2022-09-26 13:40:54.663 DEBUG 12780 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'commonsRequestLoggingFilter' configured for use
+2022-09-26 13:40:54.802  INFO 12780 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-26 13:40:54.864  INFO 12780 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2022-09-26 13:40:55.019  INFO 12780 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-26 13:40:55.118  INFO 12780 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-26 13:40:55.335  INFO 12780 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-26 13:40:55.355  INFO 12780 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-26 13:40:56.406  INFO 12780 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-26 13:40:56.415  INFO 12780 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-26 13:40:56.432  INFO 12780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-26 13:40:57.013  WARN 12780 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-26 13:40:57.337 DEBUG 12780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 30 mappings in 'requestMappingHandlerMapping'
+2022-09-26 13:40:57.426  INFO 12780 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-09-26 13:40:57.680  INFO 12780 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@394d7899, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a678088, org.springframework.security.web.header.HeaderWriterFilter@280e9059, org.springframework.web.filter.CorsFilter@8a551ee, org.springframework.security.web.authentication.logout.LogoutFilter@f6cf724, com.a606.common.auth.JwtAuthenticationFilter@1cb35c07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a5c3951, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ea79738, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76d3a200, org.springframework.security.web.session.SessionManagementFilter@b8f55a1, org.springframework.security.web.access.ExceptionTranslationFilter@6428dcbb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c1404fe]
+2022-09-26 13:40:57.765  INFO 12780 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-26 13:40:57.776 DEBUG 12780 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-09-26 13:40:57.824 DEBUG 12780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2022-09-26 13:40:58.373 DEBUG 12780 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/resources/**, /swagger-ui.html, /webjars/**, /css/**, /fonts/**, /icons/**, /img/**, /js/**, /swagger-ui/**, /**] in 'resourceHandlerMapping'
+2022-09-26 13:40:58.381 DEBUG 12780 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-09-26 13:40:58.615  INFO 12780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-26 13:40:59.004  INFO 12780 --- [restartedMain] com.a606.A606Application                 : Started A606Application in 7.667 seconds (JVM running for 8.237)
+2022-09-26 13:41:03.357  INFO 12780 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-26 13:41:03.357  INFO 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-26 13:41:03.357 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-09-26 13:41:03.357 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-09-26 13:41:03.357 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-09-26 13:41:03.358 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@421c089a
+2022-09-26 13:41:03.359 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@62aa45b9
+2022-09-26 13:41:03.359 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-09-26 13:41:03.359  INFO 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-26 13:41:03.389 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/", parameters={}
+2022-09-26 13:41:03.395 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ParameterizableViewController [view="forward:/swagger-ui/index.html"]
+2022-09-26 13:41:03.407 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2022-09-26 13:41:03.407 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : View name 'forward:', model {}
+2022-09-26 13:41:03.408 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.w.servlet.view.InternalResourceView  : Forwarding to [/swagger-ui/index.html]
+2022-09-26 13:41:03.412 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/swagger-ui/index.html", parameters={}
+2022-09-26 13:41:03.414 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-09-26 13:41:03.431 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2022-09-26 13:41:03.433 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.445 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/springfox.css?v=3.0.0", parameters={masked}
+2022-09-26 13:41:03.446 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-09-26 13:41:03.448 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css?v=3.0.0", parameters={masked}
+2022-09-26 13:41:03.449 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/springfox.js?v=3.0.0", parameters={masked}
+2022-09-26 13:41:03.449 DEBUG 12780 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0", parameters={masked}
+2022-09-26 13:41:03.449 DEBUG 12780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js?v=3.0.0", parameters={masked}
+2022-09-26 13:41:03.449 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-09-26 13:41:03.450 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.450 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-09-26 13:41:03.450 DEBUG 12780 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-09-26 13:41:03.450 DEBUG 12780 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-09-26 13:41:03.457 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.460 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.471 DEBUG 12780 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.505 DEBUG 12780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.612 DEBUG 12780 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/favicon-32x32.png?v=3.0.0", parameters={masked}
+2022-09-26 13:41:03.613 DEBUG 12780 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-09-26 13:41:03.615 DEBUG 12780 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.629 DEBUG 12780 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-resources/configuration/ui", parameters={}
+2022-09-26 13:41:03.630 DEBUG 12780 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2022-09-26 13:41:03.631 DEBUG 12780 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/favicon-32x32.png?v=3.0.0", parameters={masked}
+2022-09-26 13:41:03.632 DEBUG 12780 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-09-26 13:41:03.635 DEBUG 12780 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.645 DEBUG 12780 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2022-09-26 13:41:03.666 DEBUG 12780 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [springfox.documentation.swagger.web.UiConfiguration@6ef1acd]
+2022-09-26 13:41:03.677 DEBUG 12780 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.680 DEBUG 12780 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/swagger-resources/configuration/security", parameters={}
+2022-09-26 13:41:03.682 DEBUG 12780 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2022-09-26 13:41:03.682 DEBUG 12780 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2022-09-26 13:41:03.686 DEBUG 12780 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [springfox.documentation.swagger.web.SecurityConfiguration@2f44ba26]
+2022-09-26 13:41:03.687 DEBUG 12780 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.690 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-resources", parameters={}
+2022-09-26 13:41:03.691 DEBUG 12780 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2022-09-26 13:41:03.691 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2022-09-26 13:41:03.692 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[springfox.documentation.swagger.web.SwaggerResource@4616899]]
+2022-09-26 13:41:03.694 DEBUG 12780 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:03.723 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v2/api-docs", parameters={}
+2022-09-26 13:41:03.723 DEBUG 12780 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2022-09-26 13:41:03.830 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+2022-09-26 13:41:03.832 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [springfox.documentation.spring.web.json.Json@2fd71f32]
+2022-09-26 13:41:03.835 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:08.735 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"]]
+2022-09-26 13:41:08.736 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/item", parameters={}
+2022-09-26 13:41:08.736 DEBUG 12780 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.a606.api.controller.ItemController#readItem()
+2022-09-26 13:41:08.897 DEBUG 12780 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        item0_.id as id1_5_,
+        item0_.number as number2_5_,
+        item0_.rare as rare3_5_,
+        item0_.rgb as rgb4_5_,
+        item0_.type as type5_5_ 
+    from
+        item item0_
+2022-09-26 13:41:08.907 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-26 13:41:08.907 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2022-09-26 13:41:08.908 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:08.908 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : After request [GET /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"]]
+2022-09-26 13:41:27.384 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [POST /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", content-length:"55", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", origin:"http://localhost:8080", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", Content-Type:"application/json;charset=UTF-8"]]
+2022-09-26 13:41:27.384 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/item", parameters={}
+2022-09-26 13:41:27.384 DEBUG 12780 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.a606.api.controller.ItemController#createItem(createItemRequest)
+2022-09-26 13:41:27.416 DEBUG 12780 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.a606.api.dto.ItemDto$createItemRequest@43314d64]
+2022-09-26 13:41:27.457 DEBUG 12780 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        item
+        (number, rare, rgb, type) 
+    values
+        (?, ?, ?, ?)
+2022-09-26 13:41:27.481 DEBUG 12780 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-26 13:41:27.481 DEBUG 12780 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-09-26 13:41:27.482 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:27.482 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : After request [POST /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", content-length:"55", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", origin:"http://localhost:8080", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", Content-Type:"application/json;charset=UTF-8"], payload={
+  "number": 0,
+  "rare": 0,
+  "rgb": 0,
+  "type": 0
+}]
+2022-09-26 13:41:40.766 DEBUG 12780 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"]]
+2022-09-26 13:41:40.766 DEBUG 12780 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/item", parameters={}
+2022-09-26 13:41:40.767 DEBUG 12780 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.a606.api.controller.ItemController#readItem()
+2022-09-26 13:41:40.768 DEBUG 12780 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        item0_.id as id1_5_,
+        item0_.number as number2_5_,
+        item0_.rare as rare3_5_,
+        item0_.rgb as rgb4_5_,
+        item0_.type as type5_5_ 
+    from
+        item item0_
+2022-09-26 13:41:40.789 DEBUG 12780 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-26 13:41:40.789 DEBUG 12780 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.a606.api.dto.ItemDto@1cd8a90f]]
+2022-09-26 13:41:40.791 DEBUG 12780 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:40.791 DEBUG 12780 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : After request [GET /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"]]
+2022-09-26 13:41:59.264 DEBUG 12780 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [PUT /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", content-length:"66", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", origin:"http://localhost:8080", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", Content-Type:"application/json;charset=UTF-8"]]
+2022-09-26 13:41:59.264 DEBUG 12780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : PUT "/api/item", parameters={}
+2022-09-26 13:41:59.265 DEBUG 12780 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.a606.api.controller.ItemController#updateItem(ItemDto)
+2022-09-26 13:41:59.269 DEBUG 12780 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.a606.api.dto.ItemDto@46793cdf]
+2022-09-26 13:41:59.286 DEBUG 12780 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        item0_.id as id1_5_0_,
+        item0_.number as number2_5_0_,
+        item0_.rare as rare3_5_0_,
+        item0_.rgb as rgb4_5_0_,
+        item0_.type as type5_5_0_ 
+    from
+        item item0_ 
+    where
+        item0_.id=?
+2022-09-26 13:41:59.300 DEBUG 12780 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    update
+        item 
+    set
+        number=?,
+        rare=?,
+        rgb=?,
+        type=? 
+    where
+        id=?
+2022-09-26 13:41:59.307 DEBUG 12780 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-26 13:41:59.307 DEBUG 12780 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-09-26 13:41:59.308 DEBUG 12780 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:41:59.308 DEBUG 12780 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : After request [PUT /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", content-length:"66", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", origin:"http://localhost:8080", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", Content-Type:"application/json;charset=UTF-8"], payload={
+  "id": 1,
+  "number": 1,
+  "rare": 1,
+  "rgb": 1,
+  "type": 1
+}]
+2022-09-26 13:42:00.353 DEBUG 12780 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [PUT /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", content-length:"66", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", origin:"http://localhost:8080", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", Content-Type:"application/json;charset=UTF-8"]]
+2022-09-26 13:42:00.353 DEBUG 12780 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : PUT "/api/item", parameters={}
+2022-09-26 13:42:00.354 DEBUG 12780 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.a606.api.controller.ItemController#updateItem(ItemDto)
+2022-09-26 13:42:00.355 DEBUG 12780 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.a606.api.dto.ItemDto@ffbd2d4]
+2022-09-26 13:42:00.357 DEBUG 12780 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        item0_.id as id1_5_0_,
+        item0_.number as number2_5_0_,
+        item0_.rare as rare3_5_0_,
+        item0_.rgb as rgb4_5_0_,
+        item0_.type as type5_5_0_ 
+    from
+        item item0_ 
+    where
+        item0_.id=?
+2022-09-26 13:42:00.360 DEBUG 12780 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-26 13:42:00.361 DEBUG 12780 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-09-26 13:42:00.361 DEBUG 12780 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:42:00.362 DEBUG 12780 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : After request [PUT /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", content-length:"66", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", origin:"http://localhost:8080", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", Content-Type:"application/json;charset=UTF-8"], payload={
+  "id": 1,
+  "number": 1,
+  "rare": 1,
+  "rgb": 1,
+  "type": 1
+}]
+2022-09-26 13:42:08.233 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"]]
+2022-09-26 13:42:08.233 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/item", parameters={}
+2022-09-26 13:42:08.233 DEBUG 12780 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.a606.api.controller.ItemController#readItem()
+2022-09-26 13:42:08.236 DEBUG 12780 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        item0_.id as id1_5_,
+        item0_.number as number2_5_,
+        item0_.rare as rare3_5_,
+        item0_.rgb as rgb4_5_,
+        item0_.type as type5_5_ 
+    from
+        item item0_
+2022-09-26 13:42:08.239 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-26 13:42:08.239 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.a606.api.dto.ItemDto@12651bda]]
+2022-09-26 13:42:08.240 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:42:08.240 DEBUG 12780 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : After request [GET /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"]]
+2022-09-26 13:42:29.830 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [DELETE /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", content-length:"66", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", origin:"http://localhost:8080", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", Content-Type:"application/json;charset=UTF-8"]]
+2022-09-26 13:42:29.831 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : DELETE "/api/item", parameters={}
+2022-09-26 13:42:29.831 DEBUG 12780 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.a606.api.controller.ItemController#deleteItem(ItemDto)
+2022-09-26 13:42:29.832 DEBUG 12780 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.a606.api.dto.ItemDto@275ba3ca]
+2022-09-26 13:42:29.834 DEBUG 12780 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        item0_.id as id1_5_0_,
+        item0_.number as number2_5_0_,
+        item0_.rare as rare3_5_0_,
+        item0_.rgb as rgb4_5_0_,
+        item0_.type as type5_5_0_ 
+    from
+        item item0_ 
+    where
+        item0_.id=?
+2022-09-26 13:42:29.852 DEBUG 12780 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    delete 
+    from
+        item 
+    where
+        id=?
+2022-09-26 13:42:29.860 DEBUG 12780 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-26 13:42:29.860 DEBUG 12780 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-09-26 13:42:29.860 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:42:29.860 DEBUG 12780 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : After request [DELETE /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", content-length:"66", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", origin:"http://localhost:8080", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7", Content-Type:"application/json;charset=UTF-8"], payload={
+  "id": 1,
+  "number": 1,
+  "rare": 1,
+  "rgb": 2,
+  "type": 2
+}]
+2022-09-26 13:42:35.592 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"]]
+2022-09-26 13:42:35.592 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/item", parameters={}
+2022-09-26 13:42:35.592 DEBUG 12780 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.a606.api.controller.ItemController#readItem()
+2022-09-26 13:42:35.594 DEBUG 12780 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        item0_.id as id1_5_,
+        item0_.number as number2_5_,
+        item0_.rare as rare3_5_,
+        item0_.rgb as rgb4_5_,
+        item0_.type as type5_5_ 
+    from
+        item item0_
+2022-09-26 13:42:35.597 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-26 13:42:35.597 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2022-09-26 13:42:35.599 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-26 13:42:35.599 DEBUG 12780 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : After request [GET /api/item, client=0:0:0:0:0:0:0:1, headers=[host:"localhost:8080", connection:"keep-alive", sec-ch-ua:""Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"", accept:"*/*", sec-ch-ua-mobile:"?0", user-agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", sec-ch-ua-platform:""Windows"", sec-fetch-site:"same-origin", sec-fetch-mode:"cors", sec-fetch-dest:"empty", referer:"http://localhost:8080/swagger-ui/", accept-encoding:"gzip, deflate, br", accept-language:"ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"]]
